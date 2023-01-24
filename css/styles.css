@@ -1,0 +1,157 @@
+body{
+  font-family: "Montserrat";
+}
+
+#title{
+
+}
+.title-image{
+  width:60%;
+ transform: rotate(25deg);
+ position:absolute;
+ right:30%;
+}
+/* features */
+#features{
+  padding: 6% 13%;
+   position:relative;
+
+   width:100%;
+}
+
+.container-fluid{
+  padding:5% 15% 7%;
+}
+/* sections */
+.colored-section{
+  background-color: #ff4c68;
+  color:#fff;
+}
+.white-section{
+  background-color: #fff;
+}
+h1{
+  font-style: Montserrat-dark;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+/* navbar section */
+.navbar-brand{
+  font-family: "Merriweather";
+  font-weight: bold;
+  font-size: 3rem;
+
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 20px;
+}
+.download-button{
+  margin: 7% 3% 7% 0%;
+}
+
+/* features section */
+.feature-box{
+   text-align: center;
+   font-family: "Montserrat";
+}
+.feature-box,h3{
+  font-weight:bold;
+  font-family: "Merriweather";
+}
+p{
+  color:#8f8f8f;
+}
+
+/* commom class name for icons in feature */
+.icon{
+ margin-bottom: 1rem;
+ color:#ef8172;
+ font-size: fa-lg;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+/* testimonials section */
+#testimonials{
+  /*  here even though testimonial colourd section have bgcolor pink,since here id is more pereferenced than class */
+  background-color: #ef8172;
+  text-align: center;
+  font-family: "Montserrat-bold";
+  line-height:1.5;
+  font-size: 20px;
+}
+.testimonial-img{
+  border-radius:100%;
+  margin:30px;
+  width:10%;
+
+}
+
+/* press section */
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding: 30px 50px 40px;
+
+}
+.press-img{
+  width:10%;
+  margin:30px 30px 50px;
+
+}
+/* applying padding only for content inside and not for the entire carosel */
+
+.carousel-item{
+padding:  6% 13%;
+}
+/* pricing */
+#pricing{
+  text-align: center;
+  padding:100px;
+  font-family: "Montserrat-bold";
+  font-size: 20px;
+}
+.pricing-item{
+  margin:10p%;
+  padding:3% 2%;
+}
+
+/* responsive for the dog img */
+@media (max-width:1003px){
+  .title-image{
+    position:static;
+    text-align: center;
+    transform:rotate(0);
+  }
+}
+/* cta section */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color:#fff;
+  padding:7% 15%;
+
+}
+.cta-heading{
+  font-size: 3.5rem;
+    line height:2.5;
+    font-family: "Montserrat-bold";
+}
+
+/* footer */
+#footer{
+  text-align: center;
+  padding:4% 9%;
+  font-size: 20px;
+  line height:2.5;
+}
+
+/* social meadia icon commom class */
+.commonname{
+  padding: 1% 2% 1% 2%;
+}
